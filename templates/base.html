@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Django Snacks Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Django Snacks Webpage</h1>
+        <nav>
+            <a href="{% url 'home' %}">Home Page</a>
+            <a href="{% url 'about' %}"> About Page</a>
+        </nav>
+    </header>
+    <main>
+        {% block haya %}
+        {% endblock haya %}
+    </main>
+    <footer>
+        <p>&copy;All rights reserved for Django Nerd XD</p>
+    </footer>
+</body>
+</html>
