@@ -11,3 +11,7 @@
 ### Project Author
 
 - Haya balasmeh
+
+### PR
+
+[PR Link](https://github.com/hayabalasmeh/django-snacks/pull/1)
